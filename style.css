@@ -1,0 +1,13 @@
+img{
+    width: 20px;
+    height: auto;
+}
+
+.languages img{
+box-sizing:content-box;
+display:inline;
+float:none;
+line-height:21px;
+position:static;
+z-index:auto;
+}
