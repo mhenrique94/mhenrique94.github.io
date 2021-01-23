@@ -1,16 +1,22 @@
-### Hi there 👋
+### Hello! // Olá!
 
-<!--
-**mhenrique94/mhenrique94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+:mortar_board: I am a Bachelor of Management/Manufacturing Engineering based on São Paulo - Brazil.
 
-Here are some ideas to get you started:
+:computer: Currently taking front-end courses on [Digital Innovation One](https://digitalinnovation.one) platform and else where information is available.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+:gem: Technology has always been part of my life, development is a consequence of it.
+
+
+
+#### :anchor: Main languages
+
+  <div>
+    <div align="left">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhenrique94&langs_count=6&layout=compact">
+    </div>
+
+
+
+
+
+ 
