@@ -1,6 +1,7 @@
 *{
     color: whitesmoke;
     font-family: Helvetica;
+    background-color: rgb(29, 28, 28);
 }
 
 img{
@@ -15,10 +16,23 @@ body{
     margin: 0 0 0 0;
 }
 nav{
-    height: 100px;
+    
+    height: 70px;
     width: 100%;
     top: 0;
-    background-color: rgb(0,0,0);
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    flex-direction: left;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10%;
+}
+
+nav a{
+    display: none;
+    padding-left: 30px;
+    font-family: helvetica;
+    text-decoration: none;
 }
 .wrapper{
     display: flex;
@@ -27,32 +41,71 @@ nav{
 }
 
 .sidebar1{
-    background-color: rgb(17, 17, 16);
-    width: 25%;
+    background-color:  rgb(17, 17, 16);
+    width: 20%;
     height: 50rem;
     min-width: 15rem;
     
 }
 
+.profilecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    padding-top: 80px;
+    justify-content: center;
+    background-color:  rgb(17, 17, 16);
+
+    
+}
+
+.profilecontainer img{
+    margin-bottom: 20px;
+    height: 190px;
+    width: 80%;
+    border-radius: 50%;
+}
+
 .sidebar2{
+    display: flex;
     background-color: rgb(17, 17, 16);
-    width: 5%;
-    height: 50rem;
-    min-width: 8rem;
+    width: 3%;
+    height: auto;
+    min-width: 4rem;
+    padding-top: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sidebar2 i{
+    font-size: 35px;
+    padding-bottom: 20px;
+
+}
+
+.socialbar{
+    background-color: rgb(17, 17, 16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .mainbar{
     display: flex;
     flex-direction: column;
     background-color: rgb(17, 17, 16);
-    width: 85%;
+    /* background-color: blanchedalmond; */
+    width: 65%;
     min-width: 35rem;
     height: auto;
     border-left: 1px solid #444444;
 }
 
 .container1{
-    width: 85%;
+    width: 90%;
     height: 18rem;
     margin-top: 20px;
     margin-left: 20px;
@@ -63,7 +116,9 @@ nav{
 }
 
 .container2{
-    width: 85%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
     height: 6rem;
     margin-top: 20px;
     margin-left: 20px;
@@ -71,4 +126,34 @@ nav{
     border-left: 5px solid #c1dff7;
     padding: 12px;
     color: whitesmoke;
+    
+    align-items: left;
+}
+
+topcontainer{
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding-left: 50px;
+    right: 0;
+}
+
+.container2 i{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.badges{
+    display: flex;
+    font-size: 5px;
+    
 }
