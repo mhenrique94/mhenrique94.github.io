@@ -59,6 +59,7 @@ nav a{
     flex-direction: column;
     min-width: 15rem;
     margin-left: 0px;
+    justify-content: center;
     
 }
 
