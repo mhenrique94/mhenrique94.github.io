@@ -1,7 +1,7 @@
 *{
     color: whitesmoke;
     font-family: Helvetica;
-    background-color: rgb(29, 28, 28);
+    
 }
 
 img{
@@ -14,7 +14,9 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0 0 0 0;
+    background-color: rgb(17, 17, 16);
 }
+    
 nav{
     
     height: 70px;
@@ -34,6 +36,16 @@ nav a{
     font-family: helvetica;
     text-decoration: none;
 }
+
+/* Adicionar o stick navbar */
+
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+  
+  }
+
 .wrapper{
     display: flex;
     flex-direction: row;
@@ -41,10 +53,24 @@ nav a{
 }
 
 .sidebar1{
-    background-color:  rgb(17, 17, 16);
-    width: 20%;
-    height: 50rem;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 19%;
     min-width: 15rem;
+    margin-left: 10px;
+    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* padding-top: 30px; */
+    font-size: 11px;
+}
+
+.details i{
+    left: 0px;
     
 }
 
@@ -53,10 +79,10 @@ nav a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25%;
-    padding-top: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     justify-content: center;
-    background-color:  rgb(17, 17, 16);
+    background-color: rgb(29, 28, 28);
 
     
 }
@@ -68,9 +94,14 @@ nav a{
     border-radius: 50%;
 }
 
+.news{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 12px;
+}
 .sidebar2{
     display: flex;
-    background-color: rgb(17, 17, 16);
     width: 3%;
     height: auto;
     min-width: 4rem;
@@ -82,11 +113,11 @@ nav a{
 .sidebar2 i{
     font-size: 35px;
     padding-bottom: 20px;
+    
 
 }
 
 .socialbar{
-    background-color: rgb(17, 17, 16);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,12 +127,9 @@ nav a{
 .mainbar{
     display: flex;
     flex-direction: column;
-    background-color: rgb(17, 17, 16);
-    /* background-color: blanchedalmond; */
     width: 65%;
     min-width: 35rem;
-    height: auto;
-    border-left: 1px solid #444444;
+    border-left: 1px solid  rgb(17, 17, 16);
 }
 
 .container1{
@@ -126,7 +154,7 @@ nav a{
     border-left: 5px solid #c1dff7;
     padding: 12px;
     color: whitesmoke;
-    
+    text-decoration: none;
     align-items: left;
 }
 
@@ -136,8 +164,8 @@ topcontainer{
     justify-content: left;
     align-items: center;
     width: 100%;
-    padding-left: 50px;
     right: 0;
+    background-color: rgb(29, 28, 28);
 }
 
 .container2 i{
@@ -145,26 +173,40 @@ topcontainer{
     padding-left: 10px;
     padding-right: 10px;
     background-color: transparent;
+    text-decoration: none;
 }
 
 .logo{
     width: 60px;
     height: 60px;
+    text-decoration: none;
 }
 
 .badges{
     display: flex;
     font-size: 5px;
+    text-decoration: none;
     
 }
 
 .container3{
     width: 90%;
-    height: 18rem;
+    height: 50rem;
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(29, 28, 28);
     border-left: 5px solid #c1dff7;
     padding: 12px;
     color: whitesmoke;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 11px;
 }
