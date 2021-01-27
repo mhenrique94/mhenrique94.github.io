@@ -49,8 +49,8 @@ nav a{
 .wrapper{
     display: flex;
     flex-direction: row;
-    width: 90%;
-    justify-content: left;
+    width: 70%;
+    justify-content: space-around;
 }
 
 .sidebar1{
@@ -58,7 +58,7 @@ nav a{
     margin-top: 20px;
     flex-direction: column;
     min-width: 15rem;
-    margin-left: 10px;
+    margin-left: 0px;
     
 }
 
@@ -78,12 +78,13 @@ nav a{
 .profilecontainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 5px;
     justify-content: center;
     background-color: rgb(29, 28, 28);
+    /* width: 70%; */
 
     
 }
@@ -91,18 +92,23 @@ nav a{
 .profilecontainer img{
     margin-bottom: 20px;
     /* height: 190px; */
-    width: 80%;
+    width: 70%;
     border-radius: 50%;
 }
 
 .news{
+    display: none;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
     font-size: 12px;
+    align-items: center;
 }
 
 .twitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -134,7 +140,7 @@ nav a{
 .mainbar{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 100%;
     min-width: 35rem;
     border-left: 1px solid  rgb(17, 17, 16);
 }
@@ -222,22 +228,23 @@ footer{
 }
 
 
-@media (max-width: 650px){
+@media (max-width: 850px){
     .wrapper{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
     }
 
     .sidebar1{
         margin-top: 0px;
         min-width: 15rem;
         margin-left: 0px;
+        width: 100%;
 }
 
     .news{
         display: none;
-        padding-top: 12px;
-        font-size: 11px;
-        width:95%;
     }
 
     .twitter{
@@ -246,7 +253,7 @@ footer{
 
     .mainbar{
         min-width: 15rem;
-        width: 95%;
+        width: 100;
         border-left: 1px solid  rgb(17, 17, 16);
     }
 
@@ -288,7 +295,16 @@ footer{
 
     .profilecontainer img{
         margin-bottom: 0px;
-        width: 50%;
+        width: 40%;
+    
+    }
+
+    .profilecontainer{
+        width: 100%;
+        margin-right: 0;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
     }
 
 

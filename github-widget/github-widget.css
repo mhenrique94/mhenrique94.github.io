@@ -42,3 +42,11 @@
 .gw-clearer {
   clear: left;
 }
+
+@media (max-width: 750px){
+
+  .gw-watchers, .gw-forks {
+    display: none;
+    
+  }
+}
