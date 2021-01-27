@@ -49,14 +49,13 @@ nav a{
 .wrapper{
     display: flex;
     flex-direction: row;
-    width: 90%;
-    justify-content: left;
+    width: 100;
 }
 
 .sidebar1{
-    height: auto;
     margin-top: 20px;
     flex-direction: column;
+    width: 19%;
     min-width: 15rem;
     margin-left: 10px;
     
@@ -80,7 +79,7 @@ nav a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 5px;
     justify-content: center;
     background-color: rgb(29, 28, 28);
@@ -90,7 +89,7 @@ nav a{
 
 .profilecontainer img{
     margin-bottom: 20px;
-    /* height: 190px; */
+    height: 190px;
     width: 80%;
     border-radius: 50%;
 }
@@ -98,15 +97,9 @@ nav a{
 .news{
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 12px;
 }
-
-.twitter{
-    margin-top: 20px;
-}
-
-
 .sidebar2{
     display: flex;
     width: 3%;
@@ -141,7 +134,7 @@ nav a{
 
 .container1{
     width: 90%;
-    height: auto;
+    height: 18rem;
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(29, 28, 28);
@@ -154,7 +147,7 @@ nav a{
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: auto;
+    height: 6rem;
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(29, 28, 28);
@@ -187,7 +180,6 @@ topcontainer{
     width: 60px;
     height: 60px;
     text-decoration: none;
-    padding-left: 30px;
 }
 
 .badges{
@@ -199,7 +191,7 @@ topcontainer{
 
 .container3{
     width: 90%;
-    height: auto;
+    height: 50rem;
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(29, 28, 28);
@@ -207,8 +199,6 @@ topcontainer{
     padding: 12px;
     color: whitesmoke;
 }
-
-
 
 footer{
     display: flex;
@@ -219,78 +209,4 @@ footer{
     width: 100%;
     padding-top: 10px;
     font-size: 11px;
-}
-
-
-@media (max-width: 650px){
-    .wrapper{
-        flex-direction: column;
-    }
-
-    .sidebar1{
-        margin-top: 0px;
-        min-width: 15rem;
-        margin-left: 0px;
-}
-
-    .news{
-        display: none;
-        padding-top: 12px;
-        font-size: 11px;
-        width:95%;
-    }
-
-    .twitter{
-        display: none;
-    }
-
-    .mainbar{
-        min-width: 15rem;
-        width: 95%;
-        border-left: 1px solid  rgb(17, 17, 16);
-    }
-
-    .container1{
-        width: 100%;
-        height: 16rem;
-        margin-top: 5px;
-        margin-left: 0px;
-        padding: 5px;
-    }
-    
-    .container2{
- 
-        width: 100%;
- 
-        margin-top: 5px;
-        margin-left: 0px;
-        padding: 5px;
-
-    }
-
-    .container3{
- 
-        width: 100%;
-        height: auto;
-        margin-top: 5px;
-        margin-left: 0px;
-        padding: 5px;
-    }
-
-      
-    .socialbar{
-        flex-direction: row;
-    }
-
-    .socialbar i{
-        padding-left: 13px;
-        color: white;
-    }
-
-    .profilecontainer img{
-        margin-bottom: 0px;
-        width: 50%;
-    }
-
-
 }
