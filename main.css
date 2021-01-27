@@ -98,7 +98,6 @@ nav a{
 }
 
 .news{
-    display: none;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
@@ -108,9 +107,9 @@ nav a{
 
 .twitter{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 
@@ -144,6 +143,8 @@ nav a{
     width: 100%;
     min-width: 35rem;
     border-left: 1px solid  rgb(17, 17, 16);
+    height: auto;
+    
 }
 
 .container1{
@@ -206,7 +207,8 @@ topcontainer{
 
 .container3{
     width: 90%;
-    height: auto;
+    height: 40rem;
+    /* height: auto; */
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(29, 28, 28);
