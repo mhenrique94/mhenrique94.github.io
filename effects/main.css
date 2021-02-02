@@ -41,10 +41,7 @@ nav a{
 
   
   /* The sticky class is added to the header with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
   
-  }
 
 .wrapper{
     display: flex;
@@ -126,6 +123,7 @@ nav a{
 .sidebar2 i{
     font-size: 35px;
     padding-bottom: 20px;
+    transition: color 1s;
     
 
 }
@@ -183,7 +181,7 @@ topcontainer{
     background-color: rgb(29, 28, 28);
 }
 
-.container2 i{
+.container2 a i{
     
     padding-left: 10px;
     padding-right: 10px;
@@ -199,11 +197,11 @@ topcontainer{
 }
 
 .badges{
-    display: flex;
-    font-size: 5px;
-    text-decoration: none;
+     text-decoration: none;
     
+       
 }
+
 
 .container3{
     width: 90%;
