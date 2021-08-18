@@ -57,6 +57,7 @@ nav a{
     min-width: 15rem;
     margin-left: 0px;
     justify-content: center;
+    width: auto;
     
 }
 
@@ -79,7 +80,7 @@ nav a{
     justify-content: left;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 55px;
     justify-content: center;
     background-color: rgb(29, 28, 28);
     /* width: 70%; */
