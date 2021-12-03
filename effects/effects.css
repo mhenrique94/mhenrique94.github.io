@@ -4,7 +4,8 @@
 }
 
 .container2 a i:hover{
-    background-color: slategray;
+    color: grey;
+    background-color: gray;
 }
 
 .sticky {

@@ -152,7 +152,7 @@ nav a{
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(29, 28, 28);
-    border-left: 5px solid #c1dff7;
+    border-left: 5px solid slategray;
     padding: 12px;
     color: whitesmoke;
 }
@@ -165,7 +165,7 @@ nav a{
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(29, 28, 28);
-    border-left: 5px solid #c1dff7;
+    border-left: 5px solid slategray;
     padding: 12px;
     color: whitesmoke;
     text-decoration: none;
@@ -211,7 +211,7 @@ topcontainer{
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(29, 28, 28);
-    border-left: 5px solid #c1dff7;
+    border-left: 5px solid slategray;
     padding: 12px;
     color: whitesmoke;
 }
