@@ -1,119 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<head>
+  <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="effects/main.css">
-    <link rel="stylesheet" href="effects/effects.css">
-    <link rel="icon" href="https://github.com/mhenrique94/mhenrique94.github.io/raw/main/img/logo_bold_white.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/fe5425596b.js" crossorigin="anonymous"></script>
-    
-
-<link href="github-widget/github-widget.css" rel="stylesheet" type="text/css" />
-
-
-<title>Marcelo's webpage on github</title>
-
-
-</head>
-
-
-
-<body>
-  <topcontainer class="header" id="myHeader">
-  <img class="logo" src="https://github.com/mhenrique94/mhenrique94.github.io/raw/main/img/logo_bold_white.png">
-  <nav >
-    
-    <a href="#">MENU</a>
-    <a href="#">MENU</a>
-    <a href="#">MENU</a>
-  </nav>
-  </topcontainer>
-
-  <div class="wrapper">
-    
-    <div class="sidebar1">
-      <div class="profilecontainer">
-        <img src="https://github.com/mhenrique94/mhenrique94.github.io/raw/main/img/profile.jpg" alt="photo">
-        <p style="background-color: rgb(29, 28, 28)"> Marcelo H. Silva</p>
-      
-            <div class="details">
-              <p style="background-color: rgb(29, 28, 28)">@ mhenrique94</p>
-              <i class="fas fa-map-marker-alt">   São Paulo, SP, Brasil</i> 
-                            
-            </div>
-            
-           
-      </div>
-
-      
-  
-    </div>
-    
-    
-    <div class="mainbar">
-        
-      <div class="container1" style="background-color: rgb(29, 28, 28)">
-        <div class="c1content" style="background-color: rgb(29, 28, 28)">
-          
-          <h4 style="background-color: rgb(29, 28, 28)">Hello! // Olá!</h4>
-          <p style="background-color: rgb(29, 28, 28)"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png"> I am a Bachelor of Management/Manufacturing Engineering based on São Paulo - Brazil.</p>
-          <p style="background-color: rgb(29, 28, 28)"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png"> Currently taking front-end courses on <a href="https://digitalinnovation.one">Digital Innovation One</a> platform and where else information is available.</p>
-          <p style="background-color: rgb(29, 28, 28)"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f48e.png"> Technology has always been part of my life, development is a consequence of it.</p>
-          <p></p>
-        </div>
-          
-    </div>
-  
-        <div class="container2" style="background-color: rgb(29, 28, 28)">
-            <h4 style="background-color: rgb(29, 28, 28)">Learning:</h4>
-            <a href="http://www.w3.org" class="badges" style="background-color: rgb(29, 28, 28)">
-              <i class="fab fa-html5" style="left:10px;right:30px;font-size:20px;color: rgb(236, 142, 0)" title="html5"></i>
-              <i class="fa fa-css3" style="left:10px;right:30px;font-size:20px;color:dodgerblue" title="css3"></i>
-              <i class="fab fa-js" style="left:10px;right:30px;font-size:20px;color: goldenrod" title="javascript"></i>
-            </a>
-        </div>
-
-        <div class="container3">
-          <h4 style="background-color: rgb(29, 28, 28)">My projects:</h4>
-          <div class="github-widget" data-user="mhenrique94" data-options='{"limit":10}'></div>
-        </div>
-
-
-
-    </div>
-  
-    <div class="sidebar2">
-      <div class="socialbar">
-      <a href="https://www.linkedin.com/in/marcelohsilva/"><i class="fab fa-linkedin" title="Linkedin profile"></i></a>
-      <a href="https://github.com/mhenrique94"><i class="fab fa-github" title="See on Github"></i></a>
-    </div>
-    </div>
-  </div>
-
-
-  <script>
-    window.onscroll = function() {scroll()};
-    
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-    
-    function scroll() {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    }
-    </script>
-
-<script src="github-widget/github-widget.min.js"></script>
-</body>
-<footer>
-  Desenvolvido por Marcelo Silva. 2021.
-</footer>
-
-
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
